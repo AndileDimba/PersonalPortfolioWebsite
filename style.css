@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=lato&display=swap')
+@import url('https://fonts.googleapis.com/css?family=lato&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -84,8 +84,13 @@ header h1 {
 }
 
 header p {
-	font-size: 30px;
-	margin: 0;
+	display: grid;
+	align-items: center;
+}
+
+.info {
+	max-width: 350px;
+	margin: 30px;
 }
 
 section {
