@@ -52,3 +52,9 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+@media (max-width: 440px){
+  body{
+    font-size: 5vw;
+  }
+}
